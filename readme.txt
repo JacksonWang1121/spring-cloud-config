@@ -7,7 +7,7 @@ Config Server分布式配置中心组件的创建过程
     3、配置application.properties
 高可用的分布式配置中心（作为一个服务）的创建过程（以上过程为基础）：
     1、添加依赖
-        spring-cloud-starter-netflix-eureka-server
+        spring-cloud-starter-netflix-eureka-client
     2、配置application.properties，指定服务注册中心地址
     3、在@SpringbootApplication的启动类上
         加上注解@EnableEurekaClient
